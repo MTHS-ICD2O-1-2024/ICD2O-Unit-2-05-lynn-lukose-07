@@ -43,11 +43,11 @@
               class="mdl-textfield__input"
               type="text"
               pattern="-?[0-9]*(\.[0-9]+)?"
-              id="base-of-triangle"
+              id="hours-worked"
             />
             <!-- mdl-textfield__label -->
-            <label class="mdl-textfield__label" for="base-of-triangle"
-              >Base of triangle (cm)</label
+            <label class="mdl-textfield__label" for="hours-worked"
+              >Hours worked (hours)</label
             >
             <!-- class "mdl-textfield__error" -->
             <span class="mdl-textfield__error">Input is not a number.</span>
@@ -59,11 +59,11 @@
               class="mdl-textfield__input"
               type="text"
               pattern="-?[0-9]*(\.[0-9]+)?"
-              id="height-of-triangle"
+              id="hourly-wage"
             />
             <!-- mdl-textfield__label -->
-            <label class="mdl-textfield__label" for="height-of-triangle"
-              >Height of triangle (cm)</label
+            <label class="mdl-textfield__label" for="hourly-wage"
+              >Hourly wage ($)</label
             >
             <!-- class "mdl-textfield__error" -->
             <span class="mdl-textfield__error">Input is not a number.</span>
@@ -72,7 +72,7 @@
           <!-- Accent-colored raised button with ripple -->
           <button
             class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-            onclick="calculateAreaOfTriangle()"
+            onclick="calculateTakeHomePay()"
             type="button"
           >
             Calculate
