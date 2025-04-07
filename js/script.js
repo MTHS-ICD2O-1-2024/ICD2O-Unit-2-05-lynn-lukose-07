@@ -10,10 +10,11 @@
  * This function calculates the take home pay from a job.
  */
 function calculateTakeHomePay () {
+    const TAX_RATE = 0.18
+
   // input
   const hoursWorked = parseFloat(document.getElementById('hours-worked').value)
   const hourlyWage = parseFloat(document.getElementById('hourly-wage').value)
-  const TAX_RATE = 0.18
 
   // process
   const takeHomeSalary = (hourlyWage * hoursWorked) * (1.00 - TAX_RATE)
